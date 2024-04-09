@@ -1,0 +1,99 @@
+.employee-listing-container{
+    width:100%;
+    background-color:white;
+    // border:2px solid red;
+    padding:1rem;
+    display:flex;
+    flex-direction: column;
+    gap:0.3rem;
+
+    .title-bar{
+        display:flex ;
+        align-items: center;
+        padding:5px;
+        border-bottom :2px solid ;
+
+        span{
+           font-weight:700;
+           font-size:2rem;
+        }
+    }
+
+    .content-wrapper{
+        width:100%;
+        min-height:100vh;
+        .search-add-new-btn{
+            display: flex;
+            align-items: center;
+            form{
+                flex:0.7;
+                input{
+                    padding:0.7rem;
+                    width:20rem;
+                    // padding: 20px 15px;
+                    border:none;
+                    background-color: #f9f8f8;
+                    border-radius: 10px;
+                    filter: drop-shadow(0 0 0.75rem rgb(206, 203, 203));
+                }
+
+
+            }
+            .button-wrapper{
+                flex:0.2;
+                display: flex;
+                justify-content: flex-end;
+                button{
+                    background-color:rgb(49, 49, 236);
+                    color:white;
+                    padding:0.5rem;
+                }
+
+                button:hover{
+                    background-color: white;
+                    color:rgb(49, 49, 236);
+                    
+                }
+                
+
+            }
+        }
+
+        table{
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            min-width: 320px;
+            // width:100%;
+            flex:1;
+            border:2px solid red;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            th{
+                background-color: #01073385;
+                color:white;
+                
+            }
+
+            th, td{
+                padding: 0.7rem 3rem;
+            }
+
+            tbody {
+                width:100%;
+                tr{
+                    border-bottom: 1px solid #dddddd;
+                }
+                tr:nth-of-type(even) {
+                    background-color: #f3f3f3;
+                }
+                tr.active-row {
+                    font-weight: bold;
+                    color: #009879;
+                }
+            }
+
+        }
+    }
+}

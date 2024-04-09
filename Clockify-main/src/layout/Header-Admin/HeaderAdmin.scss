@@ -1,0 +1,45 @@
+.header-container{
+    width:99.9%;
+    background-color: #001529;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    box-sizing: border-box;
+    margin-top:0;
+    padding:0.5rem;
+ 
+
+    .logo-title-wrapper{
+        display: flex;
+        align-items: center;
+        .logo-wrapper{
+            display: flex;
+            align-items:center;
+            img{
+                 width:10rem;
+                //  height:4rem;
+            }
+        }
+    
+        .admin-dashboard-title{
+            display: flex;
+            align-items:center;
+            justify-content: space-between;
+            .time{
+                margin:2rem;
+            }
+        }
+
+    
+    }
+
+    .actions{
+        display: flex;
+        align-items: center;
+        gap:10px;
+        
+    }
+    
+
+}

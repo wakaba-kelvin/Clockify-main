@@ -1,0 +1,51 @@
+.profile-section-two{
+    h3{
+        text-align:center;
+        padding:2rem;
+    }
+    .basic-info{
+
+            .label-input-wrapper{
+                width:100%;
+                // border:2px solid red;
+                display: flex;
+                justify-content: center;
+
+                .label-input-group {
+                    width: 70%;
+                    margin: 0.2rem;
+                    display: flex;
+                    flex-direction: column;
+                    label {
+                        font-weight: 700;
+                      }
+                      input {
+                        width: 90%;
+                        padding: 20px 15px;
+                        border:none;
+                        font-size: 1.5rem;
+                        background-color: #f9f8f8;
+                        border-radius: 10px;
+                        outline:none;
+                    
+                        filter: drop-shadow(0 0 0.75rem rgb(206, 203, 203));
+                      }
+                      .error-message{
+                        color:red;
+                        font-size:0.8rem
+                      }
+                     
+    
+                     
+                  }
+
+                  
+
+                  
+            }
+        
+    }
+    .update-btn{
+     margin:0 auto;
+    }
+}

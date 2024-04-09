@@ -1,0 +1,105 @@
+.profile-container{
+    width:100%;
+    background-color:white;
+    // border:2px solid red;
+    padding:1rem;
+    display:flex;
+    flex-direction: column;
+    gap:0.3rem;
+
+    .title-bar{
+        display:flex ;
+        align-items: center;
+        justify-content: space-between;
+        padding:5px;
+        border-bottom :2px solid ;
+
+        span{
+           font-weight:700;
+           font-size:2rem;
+        }
+        button{
+            background-color: #001529;
+            color: white;
+        }
+    }
+
+    .content-wrapper{
+        width:100%;
+        min-height:100vh;
+        // border:red 3px solid;
+        display: flex;
+        flex-direction: column;
+        
+        
+        .profile-section-one{
+            // border:2px solid red;
+       
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            // background-image: url(../../assets/login_background_image.avif);
+            background:black;
+            background-color: rgba(0,0,0,0.1);
+            // z-index:99;
+
+            img{
+                border-radius:50%;
+                width:10rem;
+                height:10rem;
+                border: 2px solid rgb(170, 166, 166);
+                // z-index:999
+
+            }
+            button{
+                height:4rem;
+            }
+        }
+        .profile-section-two{
+            .basic-info{
+
+                    .label-input-wrapper{
+                        width:100%;
+                        // border:2px solid red;
+                        display: flex;
+                        justify-content: center;
+        
+                        .label-input-group {
+                            width: 70%;
+                            margin: 0.2rem;
+                            display: flex;
+                            flex-direction: column;
+                            label {
+                                font-weight: 700;
+                              }
+                              input {
+                                width: 90%;
+                                padding: 20px 15px;
+                                border:none;
+                                font-size: 1.5rem;
+                                background-color: #f9f8f8;
+                                border-radius: 10px;
+                                outline:none;
+                            
+                                filter: drop-shadow(0 0 0.75rem rgb(206, 203, 203));
+                              }
+                              .error-message{
+                                color:red;
+                                font-size:0.8rem
+                              }
+                             
+            
+                             
+                          }
+        
+                          
+        
+                          
+                    }
+                
+            }
+        }
+        
+       
+    }
+}
